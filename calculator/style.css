@@ -1,0 +1,98 @@
+body {
+	text-align: center;
+}
+#calc {
+	border: 5px solid #0000FF;
+	 border-radius: 30px;
+	width: 350px;
+	padding: 10px;
+	text-align: left;
+	margin: 0 auto;
+	background-color: #F4A460;
+}
+#spl{
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#a{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#l{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#h{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#adv{
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  background-color:chartreuse;
+}
+#hdv{
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  background-color:chartreuse;
+}
+#avan{
+     width: 50px;
+  height: auto;
+  border-radius: 5px;
+  background-color:chartreuse;
+}
+#hvan{
+     width: 50px;
+  height: auto;
+  border-radius: 5px;
+  background-color:chartreuse;
+}
+#lvan{
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#zapas{
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#splp{
+         height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#zapasp{
+     height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#button1{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color:chartreuse;
+}
+#stp{
+	font-weight: bold;
+	color: red;
+}
+#aw{
+	font-weight: bold;
+	color: red;
+}

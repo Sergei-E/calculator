@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Калькулятор</title>
+    <script src="script.js"></script>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <section id="calc">
+        <form name="form1">
+        <h1>Облицовка ванной комнаты </h1>
+        <p>Выберите размер плитки: <select id="spl">
+            <option id="15x15">15х15</option>
+            <option id="20x30">20х30</option>
+            <option id="25x25">25х25</option>
+            <option id="30x30">30х30</option>
+        </select></p>  
+        <h2>Размеры помещения в метрах: </h2>
+        <p>
+            <input id="a" type ="text" value="" placeholder="Ширина помещения"/>
+            <input id="l"type ="text" value="" placeholder="Длинна помещения"/></p>
+        <p><input id="h" type ="text" value="" placeholder="Высота помещения"/></p>
+        <h2>Размеры двери: </h2>
+            <p>Ширина: <input id="adv"> м &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Высота: <input id="hdv"> м</p>
+            <h2>Размеры ванной: </h2>
+            <p>Ширина: <input id="avan"> м &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Высота: <input id="hvan"> м</p>
+            <p>Выберите длину ванны: <select id="lvan">
+                        <option value="2,0">2,0</option>
+                        <option value="1,7">1,7</option>
+                        <option value="1,5">1,5</option>
+                        <option value="1,2">1,2</option>
+                        </select>м </p>
+            <p>Запас: <select id="zapas">
+                        <option value="10">10</option>
+                        <option value="7">7</option>
+                        <option value="5">5</option>
+                        <option value="0">0</option>
+                        </select> %</p>
+<p><input id="button1" type="button" value="Рассчитать" onclick="validate()"/></p>
+            <hr>
+            <h1>Укладка пола </h1>
+            <p>Выберите размер плитки:
+            <select id="splp">
+                <option value="30x30">30x30</option>
+                <option value="40x40">40x40</option>
+                <option value="45x45">45x45</option>
+                <option value="50x50">50x50</option>
+                </select></p>
+            <p>Запас: <select id="zapasp">
+                <option>10</option>
+                <option>7</option>
+                <option>5</option>
+                <option>0</option>
+                </select>%</p>
+<p><input id="button1" type="button" value="Рассчитать" onclick="raschitat()"/> <input id="button1" type="reset" value="Очистить" name="reset"/></p>
+        </form>
+        <div id="stp"></div>
+        <div id="aw"></div>
+    </section>
+</body>
+</html>
